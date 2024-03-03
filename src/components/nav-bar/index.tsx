@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { Header, Icons, Logo, NavigationBar } from "./nav-bar.styles";
+import { Wrapper, Icons, Logo, NavigationBar } from "./nav-bar.styles";
 import { Search, ShoppingCart, User } from "lucide-react";
 
 export default function Navbar() {
     return (
-        <Header>
+        <Wrapper>
             <Logo>Unity Trade</Logo>
 
             <NavigationBar>
@@ -32,6 +32,6 @@ export default function Navbar() {
                 <ShoppingCart />
                 <Search />
             </Icons>
-        </Header>
+        </Wrapper>
     )
 }
