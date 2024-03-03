@@ -5,7 +5,7 @@ import { Search, ShoppingCart, User } from "lucide-react";
 export default function Navbar() {
     return (
         <Header>
-            <Logo>Logo</Logo>
+            <Logo>Unity Trade</Logo>
 
             <NavigationBar>
                 <li>
