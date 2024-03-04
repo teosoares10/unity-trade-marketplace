@@ -4,8 +4,8 @@ import ErrorPage from "../error-page";
 import HomePage from "./home-page";
 import AboutPage from "./about-page";
 import ShopPage from "./shop-page";
-import BlogPage from "./blog";
-import ContactPage from "./contact";
+import BlogPage from "./blog-page";
+import ContactPage from "./contact-page";
 
 export const router = createBrowserRouter([
     {
